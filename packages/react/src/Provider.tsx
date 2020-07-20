@@ -1,7 +1,7 @@
 import React, { ComponentType, PureComponent } from 'react';
 import hoist from 'hoist-non-react-statics';
 import { I18nInstance, UnListen } from '@react-native-localize-ext/core';
-import { getSignature, SPLIT_STR, getSignatures } from './util';
+import { getSignature, SPLIT_STR, getSignatures } from './utils';
 
 type State = Readonly<{
 	sign: string;

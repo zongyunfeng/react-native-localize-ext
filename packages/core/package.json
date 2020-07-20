@@ -1,6 +1,6 @@
 {
 	"name": "@react-native-localize-ext/core",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"main": "./build/index.js",
 	"keywords": [
 		"react-native-localize-ext",
@@ -21,5 +21,5 @@
 		"access": "public",
 		"directory": "build"
 	},
-	"gitHead": "2cb3ab4c58779b7ea545ea11dd782b3361247b43"
+	"gitHead": "4cbe6177b2a9b81ac0eca2c553594ccf83b83abb"
 }
