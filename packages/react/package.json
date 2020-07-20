@@ -29,5 +29,6 @@
 	"publishConfig": {
 		"access": "public",
 		"directory": "build"
-	}
+	},
+	"gitHead": "2cb3ab4c58779b7ea545ea11dd782b3361247b43"
 }
