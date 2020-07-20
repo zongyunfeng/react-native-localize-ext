@@ -1,7 +1,7 @@
 {
 	"name": "@react-native-localize-ext/react",
-	"version": "0.0.1",
-	"main": "./build/index.js",
+	"version": "0.0.4",
+	"main": "./build/src/index.js",
 	"keywords": [
 		"react-native-i18n",
 		"react-native-localize",
@@ -18,7 +18,7 @@
 		"react": ">= 15.3.0"
 	},
 	"dependencies": {
-		"@react-native-localize-ext/core": "^0.0.1",
+		"@react-native-localize-ext/core": "^0.0.4",
 		"hoist-non-react-statics": "^3.3.1",
 		"tslib": "^1.10.0"
 	},

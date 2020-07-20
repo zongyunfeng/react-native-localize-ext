@@ -1,6 +1,6 @@
 import { I18nInstance } from '@react-native-localize-ext/core';
 import { useState, useEffect } from 'react';
-import { getSignature, SPLIT_STR, getSignatures } from './util';
+import { getSignature, SPLIT_STR, getSignatures } from './utils';
 
 export function useI18n(...i18nList: I18nInstance[]): void {
 	const [, setSign] = useState(() => getSignatures(i18nList));
