@@ -1,0 +1,35 @@
+{
+  "name": "react-native-localize-ext",
+  "version": "0.0.1",
+  "description": "make i18n in react-native much smoother",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "test": "nyc mocha ./tests/*.test.ts -r ts-node/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zongyunfeng/react-native-localize-ext.git"
+  },
+  "keywords": [
+    "react-native-localize-ext",
+    "react-native-localize"
+  ],
+  "author": "Jacob Zong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zongyunfeng/react-native-localize-ext/issues"
+  },
+  "homepage": "https://github.com/zongyunfeng/react-native-localize-ext#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/chai-spies": "^1.0.1",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "lerna": "^3.20.2",
+    "mocha": "^6.2.2",
+    "nyc": "^15.0.0",
+    "typescript": "^3.7.4"
+  }
+}

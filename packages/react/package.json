@@ -1,0 +1,33 @@
+{
+	"name": "@react-native-localize-ext/react",
+	"version": "0.0.1",
+	"main": "./build/index.js",
+	"keywords": [
+		"react-native-i18n",
+		"react-native-localize",
+		"react-native-localize-ext"
+	],
+	"repository": "git@github.com:zongyunfeng/react-native-localize-ext.git",
+	"author": "Jacob Zong",
+	"license": "MIT",
+	"scripts": {
+		"prepublishOnly": "cp -f ./package.json ./build",
+		"build": "rm -rf ./build && tsc && mv ./build/src ./build/build && cp README.md ./package.json ./build"
+	},
+	"peerDependencies": {
+		"react": ">= 15.3.0"
+	},
+	"dependencies": {
+		"@react-native-localize-ext/core": "^0.0.1",
+		"hoist-non-react-statics": "^3.3.1",
+		"tslib": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/hoist-non-react-statics": "^3.3.1",
+		"@types/react": "^16.9.17"
+	},
+	"publishConfig": {
+		"access": "public",
+		"directory": "build"
+	}
+}

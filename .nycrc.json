@@ -1,0 +1,5 @@
+{
+	"extension": [".ts"],
+	"include": ["packages/core/**"],
+	"reporter": ["text-summary", "lcov"]
+}
