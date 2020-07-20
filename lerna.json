@@ -1,11 +1,17 @@
 {
 	"npmClient": "yarn",
-	"packages": ["packages/*"],
+	"packages": [
+		"packages/*"
+	],
 	"command": {
 		"version": {
 			"message": "chore: Bump version %s"
 		}
 	},
-	"ignoreChanges": ["**/tests/**", "**/.gitignore", "**/*.md"],
-	"version": "0.0.6"
+	"ignoreChanges": [
+		"**/tests/**",
+		"**/.gitignore",
+		"**/*.md"
+	],
+	"version": "0.0.7"
 }
