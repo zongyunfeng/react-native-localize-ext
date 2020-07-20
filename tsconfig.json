@@ -5,7 +5,7 @@
     "lib": [
       "ESNext"
     ],
-    "allowJs": true,
+    "allowJs": false,
     "declaration": true,
     "removeComments": false,
     "outDir": "./build",
