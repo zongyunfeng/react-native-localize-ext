@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@react-native-localize-ext/core@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@react-native-localize-ext/core/-/core-0.0.4.tgz#22c107aef9ea03d639fb5a0429cfce8c7ea2a6ee"
+  integrity sha512-UKygBYqdCMGR3k58m33XKQhaOcQdLqWtDPCFwX0hl4MoEpx1limwgA1755DIVb34mCY8o6imOLxBtMaUlbiPdA==
+  dependencies:
+    tslib "^1.10.0"
+
 "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
