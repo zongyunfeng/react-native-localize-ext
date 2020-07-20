@@ -1,6 +1,6 @@
 {
   "name": "react-native-localize-ext",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "make i18n in react-native much smoother",
   "main": "index.js",
   "scripts": {
