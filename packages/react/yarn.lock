@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@react-native-localize-ext/core@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@react-native-localize-ext/core/-/core-0.0.4.tgz#22c107aef9ea03d639fb5a0429cfce8c7ea2a6ee"
-  integrity sha512-UKygBYqdCMGR3k58m33XKQhaOcQdLqWtDPCFwX0hl4MoEpx1limwgA1755DIVb34mCY8o6imOLxBtMaUlbiPdA==
+"@react-native-localize-ext/core@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@react-native-localize-ext/core/-/core-0.0.13.tgz#02a152e296d1a59a55105b92a134a50547fbff34"
+  integrity sha512-SaKzOjL4lvvP31igxOm5E9dbzifwyXV8aKEALgO6wI3e27LqKWr/tzTEpqagb+Mc1ywJS2yWmErSa5koXiEgUg==
   dependencies:
     tslib "^1.10.0"
 
