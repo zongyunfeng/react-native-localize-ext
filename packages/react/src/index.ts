@@ -1,3 +1,3 @@
 export * from '@react-native-localize-ext/core';
-export { I18nProvider } from './Provider';
-export { useI18n } from './hooks';
+export {I18nProvider} from './Provider';
+export {useI18n, useLocale} from './hooks';

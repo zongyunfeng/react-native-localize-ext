@@ -30,7 +30,7 @@ export class I18n<U extends object = object, T = object> {
 		this.defaultLocale = config.defaultLocale.values;
 		this.loader = config.loader;
 
-		this.define(config.defaultLocale.key, config.defaultLocale.values).locale(config.defaultLocale.key);
+		this.define(config.defaultLocale.key, config.defaultLocale.values).locale(config.defaultLocale.key).then(r => r);
 	}
 
 	public define(localeName: string, values: U): this {
