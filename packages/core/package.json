@@ -1,6 +1,6 @@
 {
 	"name": "@react-native-localize-ext/core",
-	"version": "0.0.16",
+	"version": "0.0.17",
 	"main": "./build/index.js",
 	"keywords": [
 		"react-native-localize-ext",
