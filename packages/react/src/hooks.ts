@@ -25,7 +25,7 @@ export function useI18n(...i18nList: I18nInstance[]): void {
 }
 
 export function useLocale(i18n: I18nInstance): string {
-    const [locale, setLocale] = useState(i18n._.getLocaleName);
+    const [locale, setLocale] = useState(i18n._.getLocaleName());
     i18n._.listen((name) => {
         setLocale(name);
     })
